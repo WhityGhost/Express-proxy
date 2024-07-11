@@ -1,0 +1,15 @@
+{
+  "host": "localhost",
+  "port": 443,
+  "targetHost": "www.seoptimer.com",
+  "cookieReplacer": [
+    {
+      "from": "domain=.seoptimer.com; ",
+      "to": ""
+    },
+    {
+      "from": "domain=.seoptimer.com;",
+      "to": ""
+    }
+  ]
+}
